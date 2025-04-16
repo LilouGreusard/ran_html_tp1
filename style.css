@@ -1,9 +1,98 @@
-aside {
-    float: right;
+body {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    font-family: sans-serif;
+    line-height:1.8;
+    margin: 0px;
+    background-color:rgba(145, 157, 223);
 }
+
+a {
+    color:rgb(41, 50, 117);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color:rgb(115, 125, 201);
+}
+
 .header {
-    background-color: navy;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(145, 157, 223, 0.63);
+    box-shadow: 0 4px 30px rgba(54, 52, 97, 0.87);
 }
+
+.header h1 {
+    margin: 0 100px;
+    color:rgb(15, 20, 62);
+}
+
+.header nav {
+    float: left;
+}
+
+.header nav a {
+    color:rgb(41, 50, 117);
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 100px;
+}
+
+.logo{
+    float: right;
+    padding-right: 20px;
+}
+
+.banniere{
+    width: 100%;
+    height: 423px;
+    background-image: url(image/banniere.jpg);
+    box-shadow: 0 4px 30px rgba(54, 52, 97, 0.87);
+}
+
+.main {
+    float: left;
+    width: 70%;
+    background-color: white;
+    padding-bottom:50px;
+}
+
+.main .article {
+    margin : auto;
+    max-width:800px;
+}
+
+h3 {
+    margin:0;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    background-color:rgba(145, 157, 223);
+}
+
+.vignette img {
+    width: 300px;
+    height: auto;
+    margin : 20px 50px;
+    box-shadow: 0 4px 30px rgba(54, 52, 97, 0.87);
+}
+
 .footer {
-    background-color: navy;
+    box-shadow: 0 4px 30px rgba(54, 52, 97, 0.87);
+    background-image:
+        linear-gradient( rgba(145, 157, 223, 0.45),rgba(54, 52, 97, 0.45)),
+        url(image/banniere.jpg);
+    clear:both;
+    color:rgb(15, 20, 62);
+}
+
+.footer .nav {
+    margin:10px;
 }
